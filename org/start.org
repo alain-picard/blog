@@ -1,0 +1,156 @@
+#+HUGO_BASE_DIR: ..
+#+HUGO_SECTION: post
+
+#+TITLE: Some =ox-hugo= magic
+
+* This site's template
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-sites-template
+:EXPORT_DATE: 2017-07-12T17:31:56-04:00
+:END:
+
+
+Currently using [[https://github.com/Vimux/Mainroad/][mainroad theme]].  It needs a 
+lot of tweaking which hasn't been done yet.
+
+
+** New blog entry
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: dummy-entry
+   :END:
+
+   Maybe it needs text
+
+
+* This one uses the awesome power of Org
+:PROPERTIES:
+:EXPORT_FILE_NAME: power-of-org
+:END:
+
+
+The question is: /who/ is doing the exporting?  I think
+it's =org-hugo-auto-export-mode= in the /Local Variables/.
+
+\( e^{i\pi} + 1 = 0 \)
+
+ - Here we refer to [[/blog][Blog]]
+ - And make a change
+ - Here we refer to 
+ #+begin_export html
+ <a src="/">The home page</a>
+ #+end_export
+
+ - And here to an inner link on [[/blog/foo][the foo page]]
+ - And highlighting is still failing.
+
+ #+begin_src clojure 
+   (defn foo
+     "Do some foo"
+     [x y]
+     (log "Some foobar message")
+     (+ x y))
+ #+end_src
+
+#+hugo: more
+
+#+begin_src emacs-lisp :hl_lines 2 -n 20
+  (message "This is line 1")
+  (message "This is line 2")
+  (message "This is line 3")
+#+end_src
+
+** Equations:
+
+LaTeX formatted equation: \( E = -J \sum_{i=1}^N s_i s_{i+1} \)
+
+** Another one
+
+\begin{equation}
+\label{eq:1}
+C = W\log_{2} (1+\mathrm{SNR})
+\end{equation}
+
+And that's /all/, folks!
+
+
+**  Weight
+
+#+attr_html: :class striped--light-gray
+| Date                   | Weight (kg) | Notes                     |
+|------------------------+-------------+---------------------------|
+| <2009-10-14 Wed>       |        72.4 |                           |
+| <2009-10-15 Thu>       |        72.6 |                           |
+| <2009-10-17 Sat>       |        72.8 |                           |
+| <2009-10-18 Sun>       |        72.8 |                           |
+| <2009-10-19 Mon>       |        73.4 | (!!)                      |
+| <2009-10-20 Tue>       |        73.2 |                           |
+| <2009-10-21 Wed>       |        72.8 |                           |
+| <2010-04-04 Sun>       |        71.4 |                           |
+| [2013-02-05 Tue]       |        73.0 | Weight Watchers, reboot   |
+| [2013-02-06 Wed]       |        72.8 |                           |
+| [2013-02-07 Thu]       |        74.0 |                           |
+| [2013-02-14 Thu]       |        74.4 |                           |
+| [2013-07-03 Wed]       |        72.4 |                           |
+| [2013-12-28 Sat]       |        74.2 | Ouch.                     |
+| <2016-01-06 Wed 17:33> |        75.6 |                           |
+| <2017-08-29 Tue 09:14> |        77.0 | Ouch!!                    |
+
+
+** Inline styled table
+#+begin_export html
+<style>
+.my-table th,
+.my-table td {
+    padding: 20px;
+    text-align: left;
+}
+</style>
+#+end_export
+
+#+caption: Table with verbatim CSS
+#+attr_html: :class my-table
+| h1  | h2  | h3  |
+|-----+-----+-----|
+| abc | def | ghi |
+
+
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:
+
+
+* Post 1 
+:PROPERTIES:
+:EXPORT_FILE_NAME: post-1
+:EXPORT_DATE: 2017-07-12T17:31:56-04:00
+:END:
+
+Export this *first* post only by bringing point here and doing =M-x org-hugo-export-wim-to-md=.
+*OK?*  Let us try again.
+
+* Post 2
+:PROPERTIES:
+:EXPORT_FILE_NAME: post-2
+:END:
+
+This post has no date.
+* Post 3
+:PROPERTIES:
+:EXPORT_FILE_NAME: post-3
+:EXPORT_DATE: 2020-07-22
+:END:
+
+We try to do some more posting here.
+* Post 4
+:PROPERTIES:
+:EXPORT_FILE_NAME: post-4
+:EXPORT_DATE: 2020-07-25
+:END:
+
+Now using /academic/!
+
+\( e^{i\pi} + 1 = 0 \)
+
+
+
+
