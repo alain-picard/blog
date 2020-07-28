@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alain&#39;s blog</title>
+    <link>http://alain-picard.github.io/blog/</link>
+      <atom:link href="http://alain-picard.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alain&#39;s blog</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alain Picard, 2020</copyright><lastBuildDate>Wed, 12 Jul 2017 17:31:56 -0400</lastBuildDate>
+    <image>
+      <url>http://alain-picard.github.io/blog/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Alain&#39;s blog</title>
+      <link>http://alain-picard.github.io/blog/</link>
+    </image>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://alain-picard.github.io/blog/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>http://alain-picard.github.io/blog/privacy/</guid>
+      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>http://alain-picard.github.io/blog/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>http://alain-picard.github.io/blog/terms/</guid>
+      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Post 1</title>
+      <link>http://alain-picard.github.io/blog/post/post-1/</link>
+      <pubDate>Wed, 12 Jul 2017 17:31:56 -0400</pubDate>
+      <guid>http://alain-picard.github.io/blog/post/post-1/</guid>
+      <description>&lt;p&gt;Export this &lt;strong&gt;first&lt;/strong&gt; post only by bringing point here and doing &lt;code&gt;M-x org-hugo-export-wim-to-md&lt;/code&gt;.
+&lt;strong&gt;OK?&lt;/strong&gt;  Let us try again.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

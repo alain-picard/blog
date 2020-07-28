@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Alain&#39;s blog</title>
+    <link>http://alain-picard.github.io/blog/post/</link>
+      <atom:link href="http://alain-picard.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alain Picard, 2020</copyright><lastBuildDate>Wed, 12 Jul 2017 17:31:56 -0400</lastBuildDate>
+    <image>
+      <url>http://alain-picard.github.io/blog/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>http://alain-picard.github.io/blog/post/</link>
+    </image>
+    
+    <item>
+      <title>Post 1</title>
+      <link>http://alain-picard.github.io/blog/post/post-1/</link>
+      <pubDate>Wed, 12 Jul 2017 17:31:56 -0400</pubDate>
+      <guid>http://alain-picard.github.io/blog/post/post-1/</guid>
+      <description>&lt;p&gt;Export this &lt;strong&gt;first&lt;/strong&gt; post only by bringing point here and doing &lt;code&gt;M-x org-hugo-export-wim-to-md&lt;/code&gt;.
+&lt;strong&gt;OK?&lt;/strong&gt;  Let us try again.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
