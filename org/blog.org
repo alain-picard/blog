@@ -1,30 +1,27 @@
 #+HUGO_BASE_DIR: ..
 #+HUGO_SECTION: post
+#+HUGO_CODE_FENCE: t
 
 #+TITLE: Some =ox-hugo= magic
 
-* This site's template
-:PROPERTIES:
-:EXPORT_FILE_NAME: my-sites-template
-:EXPORT_DATE: 2017-07-12T17:31:56-04:00
-:END:
+* About
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: about
+  :EXPORT_HUGO_SECTION: /
+  :END:
 
+This is my about page.
 
-Currently using [[https://github.com/Vimux/Mainroad/][mainroad theme]].  It needs a 
-lot of tweaking which hasn't been done yet.
+* Posts
+  :PROPERTIES:
+  :EXPORT_HUGO_SECTION: post
+  :END:
 
-
-** New blog entry
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: dummy-entry
-   :END:
-
-   Maybe it needs text
-
-
-* This one uses the awesome power of Org
+** This one uses the awesome power of Org
 :PROPERTIES:
 :EXPORT_FILE_NAME: power-of-org
+:EXPORT_DATE: <2020-08-01 Sat>
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :math true
 :END:
 
 
@@ -53,17 +50,17 @@ it's =org-hugo-auto-export-mode= in the /Local Variables/.
 
 #+hugo: more
 
-#+begin_src emacs-lisp :hl_lines 2 -n 20
+#+begin_src lisp :hl_lines 2 -n 20
   (message "This is line 1")
   (message "This is line 2")
   (message "This is line 3")
 #+end_src
 
-** Equations:
+*** Equations:
 
 LaTeX formatted equation: \( E = -J \sum_{i=1}^N s_i s_{i+1} \)
 
-** Another one
+*** Another one
 
 \begin{equation}
 \label{eq:1}
@@ -73,7 +70,7 @@ C = W\log_{2} (1+\mathrm{SNR})
 And that's /all/, folks!
 
 
-**  Weight
+***  Weight
 
 #+attr_html: :class striped--light-gray
 | Date                   | Weight (kg) | Notes                     |
@@ -96,7 +93,7 @@ And that's /all/, folks!
 | <2017-08-29 Tue 09:14> |        77.0 | Ouch!!                    |
 
 
-** Inline styled table
+*** Inline styled table
 #+begin_export html
 <style>
 .my-table th,
@@ -119,29 +116,76 @@ And that's /all/, folks!
 # End:
 
 
-* Post 1 
+** Post 1                                                       :testing:@blah:
 :PROPERTIES:
 :EXPORT_FILE_NAME: post-1
 :EXPORT_DATE: 2017-07-12T17:31:56-04:00
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :math true
+:math: true
 :END:
 
 Export this *first* post only by bringing point here and doing =M-x org-hugo-export-wim-to-md=.
 *OK?*  Let us try again.
 
-* Post 2
+
+\( e^{i\pi} + 1 = 0 \)
+
+
+
+
+
+
+* TODO This site's template
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-sites-template
+:EXPORT_DATE: 2017-07-12T17:31:56-04:00
+:END:
+
+
+Currently using [[https://github.com/Vimux/Mainroad/][mainroad theme]].  It needs a 
+lot of tweaking which hasn't been done yet.
+
+
+** TODO New blog entry
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: dummy-entry
+   :END:
+
+   Maybe it needs text
+
+
+* TODO Linters are a tool...
 :PROPERTIES:
 :EXPORT_FILE_NAME: post-2
+:EXPORT_DATE: <2020-07-30 Thu>
 :END:
 
-This post has no date.
-* Post 3
+... not an absolute rule.
+
+I was working at a company once...
+
+
+* TODO Post 3
 :PROPERTIES:
 :EXPORT_FILE_NAME: post-3
-:EXPORT_DATE: 2020-07-22
+:EXPORT_DATE: <2020-07-30 Thu>
 :END:
 
-We try to do some more posting here.
-* Post 4
+
+#+begin_src lisp
+;; this will export with line number 1 (default)
+(message "This is line 2")
+#+end_src
+
+And, also
+
+#+begin_src clojure
+(message "This is line 1")
+(message "This is line 2")
+(message "This is line 3")
+#+end_src
+
+* TODO Post 4
 :PROPERTIES:
 :EXPORT_FILE_NAME: post-4
 :EXPORT_DATE: 2020-07-25
