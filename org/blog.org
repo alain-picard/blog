@@ -45,7 +45,11 @@ some of my thoughts on these matters (not that I expect any to care
 what /I/ think!)
 
 Who am I?  A /defrocked astronomer/[fn:1], then a programmer[fn:2] in Australia,
-where I still reside.  A /curmudgeon/, certainly, having been told at
+where I still reside.  
+A /rationalist/ because the only way we seem to have figured out things
+which are actually true, without lying to ourselves, is the scientific 
+method.
+A /curmudgeon/, certainly, having been told at
 the tender age of 17 by my favourite maths professor, no less, that I
 had already achieved the cynicism of a 75 year old.  They call it pessimism;
 I call it /being a realist/.  Never stopped me from being happy...
@@ -56,9 +60,7 @@ exclusively) for small companies using [[https://clojure.org][clojure]].
 
 
 
-
-
-*** Notes
+**** Notes
 
 [fn:1] I obtained my Ph.D. from [[https://www.astro.caltech.edu/department/grad_alumni.html][Caltech in 1991]], in Cosmology, and worked 
 for a few years at [[https://www.esa.int/About_Us/ESTEC][the European Space Observatory]].
@@ -67,8 +69,7 @@ for a few years at [[https://www.esa.int/About_Us/ESTEC][the European Space Obse
 was performed at [[https://newsroom.accenture.com/industries/communications/accenture-to-acquire-maxamine-and-memetrics-expanding-digital-marketing-sciences-services.htm][Memetrics]], a now defunct company acquired by Accenture in 2008.
  
 
-
-** Authoring this blog                                             :tech:emacs:
+** TODO Authoring this blog                                        :tech:emacs:
 :PROPERTIES:
 :EXPORT_FILE_NAME: authoring-this-blog
 :EXPORT_DATE: <2020-08-06 Thu>
@@ -76,7 +77,7 @@ was performed at [[https://newsroom.accenture.com/industries/communications/acce
 
 I use =Hugo= with the =Academic= theme, within =emacs= using =ox-hugo=.
 
-** My life in emacs                                                     :emacs:
+** TODO My life in emacs                                                :emacs:
 :PROPERTIES:
 :EXPORT_FILE_NAME: life-in-emacs
 :EXPORT_DATE: <2020-08-04 Tue>
@@ -84,7 +85,7 @@ I use =Hugo= with the =Academic= theme, within =emacs= using =ox-hugo=.
 
 Since 1991... blah blah.
 
-** This one uses the awesome power of Org
+** TODO This one uses the awesome power of Org
 :PROPERTIES:
 :EXPORT_FILE_NAME: power-of-org
 :EXPORT_DATE: <2020-08-01 Sat>
@@ -182,27 +183,6 @@ And that's /all/, folks!
 # eval: (org-hugo-auto-export-mode)
 # End:
 
-
-
-** Post 1                                                       :testing:@blah:
-:PROPERTIES:
-:EXPORT_FILE_NAME: post-1
-:EXPORT_DATE: 2017-07-12T17:31:56-04:00
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :math true
-:math: true
-:END:
-
-Export this *first* post only by bringing point here and doing =M-x org-hugo-export-wim-to-md=.
-*OK?*  Let us try again.
-
-
-\( e^{i\pi} + 1 = 0 \)
-
-
-
-
-
-
 ** TODO Linters are a tool...
 :PROPERTIES:
 :EXPORT_FILE_NAME: post-2
@@ -214,68 +194,25 @@ Export this *first* post only by bringing point here and doing =M-x org-hugo-exp
 I was working at a company once...
 
 
-* TODO This site's template
-:PROPERTIES:
-:EXPORT_FILE_NAME: my-sites-template
-:EXPORT_DATE: 2017-07-12T17:31:56-04:00
-:END:
-
-
-Currently using [[https://github.com/Vimux/Mainroad/][mainroad theme]].  It needs a 
-lot of tweaking which hasn't been done yet.
-
-
-** TODO New blog entry
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: dummy-entry
-   :END:
-
-   Maybe it needs text
-
-
-
-* TODO Post 3
-:PROPERTIES:
-:EXPORT_FILE_NAME: post-3
-:EXPORT_DATE: <2020-07-30 Thu>
-:END:
-
-
-#+begin_src lisp
-;; this will export with line number 1 (default)
-(message "This is line 2")
-#+end_src
-
-And, also
-
-#+begin_src clojure
-(message "This is line 1")
-(message "This is line 2")
-(message "This is line 3")
-#+end_src
-
-* TODO Post 4
-:PROPERTIES:
-:EXPORT_FILE_NAME: post-4
-:EXPORT_DATE: 2020-07-25
-:END:
-
-Now using /academic/!
-
-\( e^{i\pi} + 1 = 0 \)
-
-
-
-
-
-* TODO
 * TODO Get snippets or templates for new blog entries
 * TODO Figure out distinction between `tags' and `categories'
+* TODO Get nice fonts.
+
+I think the combination I'm liking is:
+ - Libre Baskerville for body text
+ - Open Sans "Light Italic" 300 weight for headings.
+
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant:ital,wght@0,500;0,700;1,500;1,700&family=Goudy+Bookletter+1911&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@1,300&family=Raleway&display=swap" rel="stylesheet">
+
+
 * TODO Figure out how to get Disqus comments to load
 
 My Disqus url is
 s.src = 'https://technobabble-2.disqus.com/embed.js';
-* Styling
+* TODO Figure out how to get styling to "take"; the following doesn't work yet
+
+Also, add .pre to be font-size 1.0rem.
+
 .navbar-light .navbar-brand {
 ￼    color: #999999;
 ￼    font-size: 180%;
@@ -295,7 +232,7 @@ $navbar-brand-font-size: 1.8rem;
 
 #8fc9ff
 
-* Blogging ideas
+* TODO Blogging ideas
  - [ ] Why I hate browser based interfaces
  - [ ] I miss Usenet
  - [ ] Teaching clojure
@@ -306,7 +243,9 @@ $navbar-brand-font-size: 1.8rem;
    like 
    + the rationality website
    + Harry Potter fanfic
- - [ ] 
+ - [ ] Really smart people: Thos who helped me at caltech without need or hope of me paying it back (Gunn, Hester)
+       Now I understand why they did this; the desire to repay what was given freely.
+       Some of the smartest I've met have been some of the nicest; so smart not= asshole.
  - [ ] 
  - [ ] 
 

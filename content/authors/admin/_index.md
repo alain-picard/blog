@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Defrocked astronomer.  Programmer.  Curmudgeon.
+role: Defrocked astronomer.  Programmer.  Rationalist.  Curmudgeon.
 
 # Organizations/Affiliations
 organizations:

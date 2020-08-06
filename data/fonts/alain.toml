@@ -1,11 +1,11 @@
 # Font style metadata
-name = "Classic"
+name = "alain"
 
 # Optional Google font URL
-google_fonts = "Lato:400,700|Merriweather|Source Code Pro:500"
+google_fonts = "Libre Baskerville|400,700|Open Sans:300|Merriweather|Source Code Pro:500"
 
 # Font families
-heading_font = "Lato"
-body_font = "Merriweather"
-nav_font = "Lato"
+heading_font = "Open Sans"
+body_font = "Libre Baskerville"
+nav_font = "Open Sans"
 mono_font = "Source Code Pro"
