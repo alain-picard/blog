@@ -11,7 +11,7 @@ subTitle = "like a voice, in the wilderness"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseURL = "https://alain-picard.github.io/blog/"
+baseURL = "https://alain-picard.github.io/docs/"
 publishDir = "docs"
 
 # Enter a copyright notice to display in the site footer.
