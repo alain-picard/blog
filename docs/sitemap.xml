@@ -3,56 +3,70 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://alain-picard.github.io/blog/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>https://alain-picard.github.io/blog/post/</loc>
+    <lastmod>2020-08-05T00:00:00+10:00</lastmod>
   </url>
   
   <url>
-    <loc>http://alain-picard.github.io/blog/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>https://alain-picard.github.io/blog/</loc>
+    <lastmod>2020-08-05T00:00:00+10:00</lastmod>
   </url>
   
   <url>
-    <loc>http://alain-picard.github.io/blog/</loc>
-    <lastmod>2017-07-12T17:31:56-04:00</lastmod>
+    <loc>https://alain-picard.github.io/blog/post/welcome-message/</loc>
+    <lastmod>2020-08-05T00:00:00+10:00</lastmod>
   </url>
   
   <url>
-    <loc>http://alain-picard.github.io/blog/post/post-1/</loc>
-    <lastmod>2017-07-12T17:31:56-04:00</lastmod>
+    <loc>https://alain-picard.github.io/blog/foo/test/</loc>
   </url>
   
   <url>
-    <loc>http://alain-picard.github.io/blog/post/</loc>
-    <lastmod>2017-07-12T17:31:56-04:00</lastmod>
+    <loc>https://alain-picard.github.io/blog/project/test/</loc>
   </url>
   
   <url>
-    <loc>http://alain-picard.github.io/blog/authors/</loc>
+    <loc>https://alain-picard.github.io/blog/project/test2/</loc>
   </url>
   
   <url>
-    <loc>http://alain-picard.github.io/blog/categories/</loc>
+    <loc>https://alain-picard.github.io/blog/about/</loc>
   </url>
   
   <url>
-    <loc>http://alain-picard.github.io/blog/author/nelson-bighetti/</loc>
+    <loc>https://alain-picard.github.io/blog/author/alain-picard/</loc>
   </url>
   
   <url>
-    <loc>http://alain-picard.github.io/blog/publication_types/</loc>
+    <loc>https://alain-picard.github.io/blog/authors/</loc>
   </url>
   
   <url>
-    <loc>http://alain-picard.github.io/blog/publication/</loc>
+    <loc>https://alain-picard.github.io/blog/categories/</loc>
   </url>
   
   <url>
-    <loc>http://alain-picard.github.io/blog/talk/</loc>
+    <loc>https://alain-picard.github.io/blog/foo/</loc>
   </url>
   
   <url>
-    <loc>http://alain-picard.github.io/blog/tags/</loc>
+    <loc>https://alain-picard.github.io/blog/project/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alain-picard.github.io/blog/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alain-picard.github.io/blog/publication/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alain-picard.github.io/blog/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alain-picard.github.io/blog/tags/</loc>
   </url>
   
 </urlset>
