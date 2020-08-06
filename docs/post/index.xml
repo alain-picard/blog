@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Technobabble</title>
-    <link>https://alain-picard.github.io/blog/post/</link>
-      <atom:link href="https://alain-picard.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alain-picard.github.io/docs/post/</link>
+      <atom:link href="https://alain-picard.github.io/docs/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alain Picard, 2020</copyright><lastBuildDate>Wed, 05 Aug 2020 00:00:00 +1000</lastBuildDate>
     <image>
-      <url>https://alain-picard.github.io/blog/images/icon_hu3ce18283b8bd9b64b66f733ed0cd0e72_19037_512x512_fill_lanczos_center_2.png</url>
+      <url>https://alain-picard.github.io/docs/images/icon_hu3ce18283b8bd9b64b66f733ed0cd0e72_19037_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
-      <link>https://alain-picard.github.io/blog/post/</link>
+      <link>https://alain-picard.github.io/docs/post/</link>
     </image>
     
     <item>
       <title>Welcome to my corner of the internet!</title>
-      <link>https://alain-picard.github.io/blog/post/welcome-message/</link>
+      <link>https://alain-picard.github.io/docs/post/welcome-message/</link>
       <pubDate>Wed, 05 Aug 2020 00:00:00 +1000</pubDate>
-      <guid>https://alain-picard.github.io/blog/post/welcome-message/</guid>
+      <guid>https://alain-picard.github.io/docs/post/welcome-message/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Welcome!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;It is odd that I have been online for so long (since 1986 or so)
 but have never felt the need to publish content (apart from the occasional

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Technobabble</title>
-    <link>https://alain-picard.github.io/blog/tags/</link>
-      <atom:link href="https://alain-picard.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alain-picard.github.io/docs/tags/</link>
+      <atom:link href="https://alain-picard.github.io/docs/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alain Picard, 2020</copyright>
     <image>
-      <url>https://alain-picard.github.io/blog/images/icon_hu3ce18283b8bd9b64b66f733ed0cd0e72_19037_512x512_fill_lanczos_center_2.png</url>
+      <url>https://alain-picard.github.io/docs/images/icon_hu3ce18283b8bd9b64b66f733ed0cd0e72_19037_512x512_fill_lanczos_center_2.png</url>
       <title>Tags</title>
-      <link>https://alain-picard.github.io/blog/tags/</link>
+      <link>https://alain-picard.github.io/docs/tags/</link>
     </image>
     
   </channel>
