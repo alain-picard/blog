@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Foos | Technobabble</title>
+    <link>https://alain-picard.github.io/blog/foo/</link>
+      <atom:link href="https://alain-picard.github.io/blog/foo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Foos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alain Picard, 2020</copyright>
+    <image>
+      <url>https://alain-picard.github.io/blog/images/icon_hu3ce18283b8bd9b64b66f733ed0cd0e72_19037_512x512_fill_lanczos_center_2.png</url>
+      <title>Foos</title>
+      <link>https://alain-picard.github.io/blog/foo/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://alain-picard.github.io/blog/foo/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alain-picard.github.io/blog/foo/test/</guid>
+      <description>&lt;h1 id=&#34;another-foo-boring-title&#34;&gt;Another FOO boring title&lt;/h1&gt;
+&lt;p&gt;And then &lt;code&gt;there were&lt;/code&gt; &lt;strong&gt;none&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
