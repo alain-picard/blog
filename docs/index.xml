@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technobabble</title>
-    <link>https://alain-picard.github.io/docs/</link>
-      <atom:link href="https://alain-picard.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alain-picard.github.io/blog/</link>
+      <atom:link href="https://alain-picard.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Technobabble</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alain Picard, 2020</copyright><lastBuildDate>Wed, 05 Aug 2020 00:00:00 +1000</lastBuildDate>
     <image>
-      <url>https://alain-picard.github.io/docs/images/icon_hu3ce18283b8bd9b64b66f733ed0cd0e72_19037_512x512_fill_lanczos_center_2.png</url>
+      <url>https://alain-picard.github.io/blog/images/icon_hu3ce18283b8bd9b64b66f733ed0cd0e72_19037_512x512_fill_lanczos_center_2.png</url>
       <title>Technobabble</title>
-      <link>https://alain-picard.github.io/docs/</link>
+      <link>https://alain-picard.github.io/blog/</link>
     </image>
     
     <item>
       <title>Welcome to my corner of the internet!</title>
-      <link>https://alain-picard.github.io/docs/post/welcome-message/</link>
+      <link>https://alain-picard.github.io/blog/post/welcome-message/</link>
       <pubDate>Wed, 05 Aug 2020 00:00:00 +1000</pubDate>
-      <guid>https://alain-picard.github.io/docs/post/welcome-message/</guid>
+      <guid>https://alain-picard.github.io/blog/post/welcome-message/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Welcome!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;It is odd that I have been online for so long (since 1986 or so)
 but have never felt the need to publish content (apart from the occasional
@@ -61,9 +61,9 @@ exclusively) for small companies using
     
     <item>
       <title></title>
-      <link>https://alain-picard.github.io/docs/foo/test/</link>
+      <link>https://alain-picard.github.io/blog/foo/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alain-picard.github.io/docs/foo/test/</guid>
+      <guid>https://alain-picard.github.io/blog/foo/test/</guid>
       <description>&lt;h1 id=&#34;another-foo-boring-title&#34;&gt;Another FOO boring title&lt;/h1&gt;
 &lt;p&gt;And then &lt;code&gt;there were&lt;/code&gt; &lt;strong&gt;none&lt;/strong&gt;.&lt;/p&gt;
 </description>
@@ -71,9 +71,9 @@ exclusively) for small companies using
     
     <item>
       <title></title>
-      <link>https://alain-picard.github.io/docs/project/test/</link>
+      <link>https://alain-picard.github.io/blog/project/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alain-picard.github.io/docs/project/test/</guid>
+      <guid>https://alain-picard.github.io/blog/project/test/</guid>
       <description>&lt;h1 id=&#34;some-boring-title&#34;&gt;Some boring title&lt;/h1&gt;
 &lt;p&gt;And then &lt;code&gt;there were&lt;/code&gt; &lt;strong&gt;none&lt;/strong&gt;.&lt;/p&gt;
 </description>
@@ -81,9 +81,9 @@ exclusively) for small companies using
     
     <item>
       <title></title>
-      <link>https://alain-picard.github.io/docs/project/test2/</link>
+      <link>https://alain-picard.github.io/blog/project/test2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alain-picard.github.io/docs/project/test2/</guid>
+      <guid>https://alain-picard.github.io/blog/project/test2/</guid>
       <description>&lt;h1 id=&#34;some-boring-title&#34;&gt;Some boring title&lt;/h1&gt;
 &lt;p&gt;And then &lt;code&gt;there were&lt;/code&gt; &lt;em&gt;some&lt;/em&gt;!&lt;/p&gt;
 </description>
@@ -91,9 +91,9 @@ exclusively) for small companies using
     
     <item>
       <title>About</title>
-      <link>https://alain-picard.github.io/docs/about/</link>
+      <link>https://alain-picard.github.io/blog/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alain-picard.github.io/docs/about/</guid>
+      <guid>https://alain-picard.github.io/blog/about/</guid>
       <description>&lt;p&gt;This is my about page.  What it says about me I don&amp;rsquo;t know,
 but I intend to find out.&lt;/p&gt;
 &lt;p&gt;In the meantime, &lt;em&gt;so long&lt;/em&gt;.&lt;/p&gt;

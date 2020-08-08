@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Technobabble</title>
-    <link>https://alain-picard.github.io/docs/publication/</link>
-      <atom:link href="https://alain-picard.github.io/docs/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://alain-picard.github.io/blog/publication/</link>
+      <atom:link href="https://alain-picard.github.io/blog/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alain Picard, 2020</copyright>
     <image>
-      <url>https://alain-picard.github.io/docs/images/icon_hu3ce18283b8bd9b64b66f733ed0cd0e72_19037_512x512_fill_lanczos_center_2.png</url>
+      <url>https://alain-picard.github.io/blog/images/icon_hu3ce18283b8bd9b64b66f733ed0cd0e72_19037_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
-      <link>https://alain-picard.github.io/docs/publication/</link>
+      <link>https://alain-picard.github.io/blog/publication/</link>
     </image>
     
   </channel>
