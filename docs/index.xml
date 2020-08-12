@@ -5,12 +5,147 @@
     <link>https://alain-picard.github.io/blog/</link>
       <atom:link href="https://alain-picard.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Technobabble</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alain Picard, 2020</copyright><lastBuildDate>Wed, 05 Aug 2020 00:00:00 +1000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alain Picard, 2020</copyright><lastBuildDate>Tue, 11 Aug 2020 00:00:00 +1000</lastBuildDate>
     <image>
       <url>https://alain-picard.github.io/blog/images/icon_hu3ce18283b8bd9b64b66f733ed0cd0e72_19037_512x512_fill_lanczos_center_2.png</url>
       <title>Technobabble</title>
       <link>https://alain-picard.github.io/blog/</link>
     </image>
+    
+    <item>
+      <title>My life in emacs</title>
+      <link>https://alain-picard.github.io/blog/post/life-in-emacs/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +1000</pubDate>
+      <guid>https://alain-picard.github.io/blog/post/life-in-emacs/</guid>
+      <description>&lt;h2 id=&#34;in-the-beginning-dot-dot-dot&#34;&gt;In the beginning&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve been using 
+&lt;a href=&#34;https://www.gnu.org/software/emacs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Emacs&lt;/a&gt; pretty much daily since 1991, when I got
+kicked off &lt;em&gt;deimos&lt;/em&gt;, a VAX-780 in the astronomy department at Caltech.
+Well, I didn&amp;rsquo;t just get kicked off of it&amp;hellip; it stopped existing, as
+vaxen fell out of fashion for being cost ineffective, and the department
+made the transition to a Convex, a now defunct super minicomputer.  But
+that&amp;rsquo;s a story for another day.&lt;/p&gt;
+&lt;p&gt;Finding myself with a brand new Sun Sparcstation, I then had to find
+another editor (at the time, I was a wiz on VMS&amp;rsquo;s &lt;code&gt;EDT&lt;/code&gt; editor) to write
+my thesis, the manuscript of which was going to be written in TeX.  My
+choices seemed to be &lt;code&gt;vi&lt;/code&gt; and &lt;code&gt;emacs&lt;/code&gt;, as even then I (correctly) intuited
+that sticking with an emulator for a defunct system was probably not a
+good long term strategy.&lt;/p&gt;
+&lt;p&gt;Emacs had this nice mode called 
+&lt;a href=&#34;https://www.gnu.org/software/auctex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AUCTeX&lt;/a&gt; to facilitate
+authoring 
+&lt;a href=&#34;http://www.tug.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TeX&lt;/a&gt; documents.  I took the plunge, and have never looked back.
+I of course totally fell for the tinkerer&amp;rsquo;s malady which affects most
+new emacs users, and spent more time exploring and configuring emacs
+that writing my thesis (standard work avoidance tactics).&lt;/p&gt;
+&lt;p&gt;As I think back about my career in programming, it seems odd that such
+an&amp;hellip; &lt;em&gt;accidental&lt;/em&gt; choice ended up having such a deep impact on me.  Later,
+I would come to appreciate emacs as a &amp;ldquo;programmable editor&amp;rdquo;, learn lisp,
+and eventually even build a company&amp;rsquo;s technological core on 
+&lt;a href=&#34;https://common-lisp.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Common Lisp&lt;/a&gt;;
+I&amp;rsquo;m quite that would never have happened had I not had my eyes opened to
+the existence of such deeply interactive and evolveable systems.&lt;/p&gt;
+&lt;h2 id=&#34;happy-productive-years-go-by&#34;&gt;Happy, productive years go by&lt;/h2&gt;
+&lt;p&gt;The next two decades saw me &lt;em&gt;living&lt;/em&gt; in emacs.  From version 18.57,
+emacs rapidly developed into an actual GUI application (whoa!  modern!)
+with the 19.X release.  Then we were off the the races.
+Working in &lt;code&gt;C++&lt;/code&gt;, then &lt;code&gt;lisp&lt;/code&gt;,
+reading/writing mail and usenet (using &lt;code&gt;VM&lt;/code&gt; and, later, 
+&lt;a href=&#34;http://www.gnus.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNUS&lt;/a&gt;), various
+folding modes (until the category killer, 
+&lt;a href=&#34;https://orgmode.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;org-mode&lt;/a&gt; appeared in 2003),
+version control (first with SVN, then 
+&lt;a href=&#34;https://www.mercurial-scm.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mercurial&lt;/a&gt;, and, finally the
+most wondrous 
+&lt;a href=&#34;https://magit.vc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;magit&lt;/a&gt;, which rescues the horrible &lt;code&gt;git&lt;/code&gt; from the pathetic
+mess that is its UI); emacs gave me loyal service during countless
+hours.&lt;/p&gt;
+&lt;p&gt;Cryptography, programming, editing remote files, diffing, rectangle
+modes&amp;hellip; my motto became &amp;ldquo;The Answer is Emacs.  Now, what was the
+question?&amp;rdquo;  Even better, as computers got faster, emacs&amp;rsquo; reputation
+for being slow and resource hungry began to fade, and now this appears
+quaint, as single purpose applications like &lt;code&gt;slack&lt;/code&gt;, a glorified IRC
+system, dwarf emacs in terms of resource usage.&lt;/p&gt;
+&lt;p&gt;Startup time?  Not a problem if you never leave it; this
+session is shorter than most&amp;hellip;  I remember getting to over
+a year of uptime once.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-emacs-lisp&#34;&gt;(emacs-uptime)
+&amp;quot;23 days, 7 hours, 41 minutes, 24 seconds&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I&amp;rsquo;m guessing I had to reboot my computer for some reason&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;teaching-emacs&#34;&gt;Teaching emacs&lt;/h2&gt;
+&lt;p&gt;I guess I sort of ended being the emacs guru and evangelist wherever
+I went, so I ended up teaching emacs to quite a few people.  I discovered
+an interesting phenomenon: many people took to emacs quite enthusiastically,
+but usually for different reasons!  It seems emacs has many faces, and
+people need to discover their own &amp;ldquo;killer app&amp;rdquo; to see the light.&lt;/p&gt;
+&lt;p&gt;Of course, today, many, many more special purpose tools and IDEs exist
+which provide much of this functionality straight out of the box
+(often better), it is difficult to justify the emacs way.  Add to this
+that the emacs terminology is antiquated (a &amp;ldquo;window&amp;rdquo; in emacs doesn&amp;rsquo;t mean
+what you think, you want a &amp;ldquo;frame&amp;rdquo;, you don&amp;rsquo;t &amp;ldquo;cut and paste&amp;rdquo; in emacs,
+you &amp;ldquo;kill and yank&amp;rdquo;) it must feel like an alien and stubbornly archaic land
+to a new user.  So why should they persevere?&lt;/p&gt;
+&lt;h2 id=&#34;by-their-tools-shall-ye-know-them&#34;&gt;By their &lt;em&gt;tools&lt;/em&gt; shall ye know them&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Expert&lt;/em&gt; tools are not designed like tools for beginners.  I watch
+my younger colleagues, and many seem to be stuck in a form of arrested
+development, paralyzed in a sort of &amp;ldquo;eternal beginner&amp;rdquo; state.  I think
+it has to do with the idea of &amp;ldquo;user friendliness&amp;rdquo;, which got (mis-)interpreted
+as &amp;ldquo;beginner friendliness&amp;rdquo;.  But a professional programmer isn&amp;rsquo;t (or, at
+least, shouldn&amp;rsquo;t &lt;em&gt;stay)&lt;/em&gt; a beginner!  I watch them move the mouse, click,
+drag, cut, scroll (again, with the mouse), click and finally paste&amp;hellip; and
+mentally calculate how long that took, how many times a day they do it,
+how many days in their life they will do it for&amp;hellip; and despair.  Not to mention
+to mental interruption to the flow imposed by each of these tiny delays, each
+of these additional bits of friction.&lt;/p&gt;
+&lt;p&gt;So let me be clear: I believe the young programmer should strive to make
+their tool &lt;em&gt;disappear&lt;/em&gt; from their consciousness; the mechanical aspects of your
+work should be as a musician playing his instrument: he thinks not of the
+instrument but about the music.  The instrument &amp;ldquo;plays itself&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;This is the realm in which emacs excels.  The reason for this is that it&amp;rsquo;s
+more a &lt;em&gt;meta tool&lt;/em&gt; than a tool.  The opening line of the emacs manual
+is essentially unchanged to this day from my hardcopy version, sixth edition, 1987:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Emacs is the extensible, customizable, self-documenting real-time
+display editor.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This emphasis on &lt;em&gt;extensibility&lt;/em&gt; and &lt;em&gt;customizability&lt;/em&gt; is the essence of emacs.
+Emacs works the way &lt;em&gt;you&lt;/em&gt; do, not the way around.  That is why, unlike these
+other &amp;ldquo;friendly&amp;rdquo; tools, it &lt;em&gt;never&lt;/em&gt; runs out of features, nor slows you down,
+nor draws attention to itself.  The price you pay for this is climbing the
+steep learning curve.  Did you think this was going to be easy?  Nothing
+worthwhile ever is.&lt;/p&gt;
+&lt;h2 id=&#34;modern-times&#34;&gt;Modern times&lt;/h2&gt;
+&lt;p&gt;These days I am deeply conflicted about whether or not to recommend to young
+programmers that they follow this path; it&amp;rsquo;s hard for me to gauge to what extent
+the time I invested in learning this tool (and the rewards I got from it) are still
+achievable today.  For me, the principal win has been that I could do just about
+&lt;em&gt;all&lt;/em&gt; of my work from within emacs, thus compounding efficiencies as I switched
+from one 
+&lt;a href=&#34;https://www.gnu.org/software/emacs/manual/html%5Fnode/emacs/Major-Modes.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mode&lt;/a&gt; to another.  But the world has moved on, and working outside a
+browser now becomes more and more difficult.  Even tools like the
+
+&lt;a href=&#34;https://chrome.google.com/webstore/detail/edit-with-emacs/ljobjlafonikaiipfkggjbhkghgicgoh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Edit with Emacs&lt;/a&gt; chrome browser extension only help marginally, because now
+developers are made to use obnoxious tools like Jira, which (on purpose, I&amp;rsquo;m sure)
+
+&lt;a href=&#34;https://www.atlassian.com/blog/archives/why-we-removed-wiki-markup-editor-in-confluence-4#comments&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;prevent round tripping&lt;/a&gt; of their markup language to and from plain text (&lt;em&gt;i.e.&lt;/em&gt; markdown).
+Furthermore, even though I still read my mail from emacs, I have to pipe it
+through the browser to properly view more than half of messages I now get.
+I sure long for the days of plain ASCII email&amp;hellip;&lt;/p&gt;
+&lt;p&gt;What advice would I give a young programmer choosing today?  I would
+say you should still consider &lt;code&gt;emacs&lt;/code&gt; if you are the type of person who
+believes in expert tools.  Emacs is not flashy or pretty out of the
+box.  Remember, think of emacs not as a finished product, but as a
+&lt;em&gt;toolkit&lt;/em&gt; with which to create your own, custom work environment.  Emacs
+is an &lt;em&gt;investment&lt;/em&gt;: you&amp;rsquo;ll have to &lt;em&gt;work&lt;/em&gt; at it.  You will either find
+yourself falling down the rabbit hole, and enjoying the experience, or
+totally bewildered and hating it.  Both are fine!&lt;/p&gt;
+&lt;p&gt;But if you think you&amp;rsquo;ll still be doing this job in 20 years, if you want to
+become ever more effective at it, if you want your work tool to become
+an extension of your mind, then perhaps &lt;code&gt;emacs&lt;/code&gt; &lt;em&gt;is&lt;/em&gt; for you, even now, in 2020.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll just have to find out for yourself, won&amp;rsquo;t you?&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Welcome to my corner of the internet!</title>
@@ -90,12 +225,16 @@ exclusively) for small companies using
     </item>
     
     <item>
-      <title>About</title>
+      <title>About your host</title>
       <link>https://alain-picard.github.io/blog/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://alain-picard.github.io/blog/about/</guid>
-      <description>&lt;p&gt;Ramblings of a programmer.  I like &lt;code&gt;emacs&lt;/code&gt;, lispy languages,
-&lt;code&gt;Unix™&lt;/code&gt;, and intelligent discussion.&lt;/p&gt;
+      <description>&lt;p&gt;Welcome!  My name is &lt;em&gt;Alain Picard&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;These are the
+ramblings of a curmudgeonly programmer.  I like &lt;code&gt;emacs&lt;/code&gt;, lispy languages,
+&lt;code&gt;Unix™&lt;/code&gt;, and intelligent discussion.  I&amp;rsquo;ll be talking about all those
+things, and then some.  Feel free to reach out via email, or by
+leaving a comment.&lt;/p&gt;
 </description>
     </item>
     

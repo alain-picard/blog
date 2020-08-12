@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Technobabble</title>
-    <link>https://alain-picard.github.io/blog/post/</link>
-      <atom:link href="https://alain-picard.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <title>emacs | Technobabble</title>
+    <link>https://alain-picard.github.io/blog/tag/emacs/</link>
+      <atom:link href="https://alain-picard.github.io/blog/tag/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <description>emacs</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alain Picard, 2020</copyright><lastBuildDate>Tue, 11 Aug 2020 00:00:00 +1000</lastBuildDate>
     <image>
       <url>https://alain-picard.github.io/blog/images/icon_hu3ce18283b8bd9b64b66f733ed0cd0e72_19037_512x512_fill_lanczos_center_2.png</url>
-      <title>Posts</title>
-      <link>https://alain-picard.github.io/blog/post/</link>
+      <title>emacs</title>
+      <link>https://alain-picard.github.io/blog/tag/emacs/</link>
     </image>
     
     <item>
@@ -144,53 +144,6 @@ totally bewildered and hating it.  Both are fine!&lt;/p&gt;
 become ever more effective at it, if you want your work tool to become
 an extension of your mind, then perhaps &lt;code&gt;emacs&lt;/code&gt; &lt;em&gt;is&lt;/em&gt; for you, even now, in 2020.&lt;/p&gt;
 &lt;p&gt;You&amp;rsquo;ll just have to find out for yourself, won&amp;rsquo;t you?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome to my corner of the internet!</title>
-      <link>https://alain-picard.github.io/blog/post/welcome-message/</link>
-      <pubDate>Wed, 05 Aug 2020 00:00:00 +1000</pubDate>
-      <guid>https://alain-picard.github.io/blog/post/welcome-message/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Welcome!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;It is odd that I have been online for so long (since 1986 or so)
-but have never felt the need to publish content (apart from the occasional
-piece of open source software, here and there).  There was one early
-attempt, in hand-crafted HTML, around 1994, that I might try to resurrect
-for posterity&amp;hellip; but nothing since.&lt;/p&gt;
-&lt;p&gt;What changed?  I guess with the passage of time, my work took
-me from being a &amp;ldquo;producer&amp;rdquo; to being more of a &amp;ldquo;mentor&amp;rdquo;.  During my
-career I began to notice the same problems, (and often, the same wrong
-solutions) over and over, so I figured I might as well write down
-some of my thoughts on these matters (not that I expect any to care
-what &lt;em&gt;I&lt;/em&gt; think!)&lt;/p&gt;
-&lt;p&gt;Who am I?  A &lt;em&gt;defrocked astronomer&lt;/em&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, then a programmer&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; in Australia,
-where I still reside.
-A &lt;em&gt;rationalist&lt;/em&gt; because the only way we seem to have figured out things
-which are actually true, without lying to ourselves, is the scientific
-method.
-A &lt;em&gt;curmudgeon&lt;/em&gt;, certainly, having been told at
-the tender age of 17 by my favourite maths professor, no less, that I
-had already achieved the cynicism of a 75 year old.  They call it pessimism;
-I call it &lt;em&gt;being a realist&lt;/em&gt;.  Never stopped me from being happy&amp;hellip;&lt;/p&gt;
-&lt;p&gt;I now work as a consultant, principally (but not
-exclusively) for small companies using 
-&lt;a href=&#34;https://clojure.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;clojure&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;I obtained my Ph.D. from 
-&lt;a href=&#34;https://www.astro.caltech.edu/department/grad%5Falumni.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Caltech in 1991&lt;/a&gt;, in Cosmology, and worked for a few years at 
-&lt;a href=&#34;https://www.esa.int/About%5FUs/ESTEC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the European Space Observatory&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;Although I worked at many places, the work I am most proud of was performed at 
-&lt;a href=&#34;https://newsroom.accenture.com/industries/communications/accenture-to-acquire-maxamine-and-memetrics-expanding-digital-marketing-sciences-services.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Memetrics&lt;/a&gt;, a now defunct company acquired by Accenture in 2008. &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
 </description>
     </item>
     
