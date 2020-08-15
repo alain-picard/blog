@@ -1,0 +1,29 @@
+// Override this file to add your own SCSS styling.
+// Note - this file must live _HERE_ and cannot be moved to data/assets/scss.
+// I don't understand why.
+
+$sta-font-size-small: 2.5rem;
+
+.navbar {
+    // height: 150px;
+    font-size: #{$sta-font-heading}px;
+    // background-color : grey;
+//     font-size: #{$sta-font-size}px;
+}
+
+
+article.article h1, h2, h3, h4 {
+    font-family: Merriweather, sans-serif;
+    font-style: italic;
+    color: #d15b23;
+}
+
+
+h2 {
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+h4, h5, h6 {
+  margin-top: 1.5rem;
+}

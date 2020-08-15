@@ -69,7 +69,7 @@ system, dwarf emacs in terms of resource usage.&lt;/p&gt;
 &lt;p&gt;Startup time?  Not a problem if you never leave it; this
 session is shorter than most&amp;hellip;  I remember getting to over
 a year of uptime once.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-emacs-lisp&#34;&gt;(emacs-uptime)
+&lt;pre&gt;&lt;code class=&#34;language-lisp&#34;&gt;(emacs-uptime)
 &amp;quot;23 days, 7 hours, 41 minutes, 24 seconds&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I&amp;rsquo;m guessing I had to reboot my computer for some reason&amp;hellip;&lt;/p&gt;

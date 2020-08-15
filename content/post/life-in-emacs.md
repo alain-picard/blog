@@ -60,7 +60,7 @@ Startup time?  Not a problem if you never leave it; this
 session is shorter than most...  I remember getting to over
 a year of uptime once.
 
-```emacs-lisp
+```lisp
 (emacs-uptime)
 "23 days, 7 hours, 41 minutes, 24 seconds"
 ```
