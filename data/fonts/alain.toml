@@ -5,7 +5,7 @@ name = "alain"
 google_fonts = "Libre Baskerville|400,700|Open Sans:300|Merriweather|Source Code Pro:500"
 
 # Font families
-heading_font = "Open Sans"
+heading_font = "Merriweather"
+nav_font = "Merriweather"
 body_font = "Libre Baskerville"
-nav_font = "Open Sans"
 mono_font = "Source Code Pro"
