@@ -6,6 +6,9 @@
 #+SUBTITLE: Ramblings of a programmer
 #+TAGS: { tech(t) emacs(e) lisp clojure peopleware nostalgia }
 #+TAGS: { linux society advice defective }
+#+TYP_TODO: TODO NEXT WAITING SOMEDAY DONE
+
+
 
 * About your host
   :PROPERTIES:
@@ -81,6 +84,7 @@ was performed at [[https://newsroom.accenture.com/industries/communications/acce
 
 I use =Hugo= with the =Academic= theme, within =emacs= using =ox-hugo=.
 
+
 ** My life in emacs                               :emacs:advice:nostalgia:tech:
 :PROPERTIES:
 :EXPORT_FILE_NAME: life-in-emacs
@@ -140,7 +144,7 @@ system, dwarf emacs in terms of resource usage.
 Startup time?  Not a problem if you never leave it; this
 session is shorter than most...  I remember getting to over
 a year of uptime once.
-#+begin_src emacs-lisp
+#+begin_src lisp
 (emacs-uptime)
 "23 days, 7 hours, 41 minutes, 24 seconds"
 #+end_src
@@ -231,7 +235,7 @@ You'll just have to find out for yourself, won't you?
 
 
 
-** TODO This one uses the awesome power of Org
+** TODO This one uses the awesome power of Org                     :tech:emacs:
 :PROPERTIES:
 :EXPORT_FILE_NAME: power-of-org
 :EXPORT_DATE: <2020-08-01 Sat>
@@ -289,6 +293,7 @@ And that's /all/, folks!
 #+attr_html: :class striped--light-gray
 | Date                   | Weight (kg) | Notes                     |
 |------------------------+-------------+---------------------------|
+|------------------------+-------------+---------------------------|
 | <2009-10-14 Wed>       |        72.4 |                           |
 | <2009-10-15 Thu>       |        72.6 |                           |
 | <2009-10-17 Sat>       |        72.8 |                           |
@@ -298,13 +303,8 @@ And that's /all/, folks!
 | <2009-10-21 Wed>       |        72.8 |                           |
 | <2010-04-04 Sun>       |        71.4 |                           |
 | [2013-02-05 Tue]       |        73.0 | Weight Watchers, reboot   |
-| [2013-02-06 Wed]       |        72.8 |                           |
-| [2013-02-07 Thu]       |        74.0 |                           |
-| [2013-02-14 Thu]       |        74.4 |                           |
-| [2013-07-03 Wed]       |        72.4 |                           |
-| [2013-12-28 Sat]       |        74.2 | Ouch.                     |
-| <2016-01-06 Wed 17:33> |        75.6 |                           |
-| <2017-08-29 Tue 09:14> |        77.0 | Ouch!!                    |
+|------------------------+-------------+---------------------------|
+|------------------------+-------------+---------------------------|
 
 
 *** Inline styled table
@@ -314,7 +314,10 @@ And that's /all/, folks!
 .my-table td {
     padding: 20px;
     text-align: left;
+    color: red;
+    font-family: sans;
 }
+.my-table { border: solid 3px grey;     width: auto; }
 </style>
 #+end_export
 
@@ -355,7 +358,20 @@ I think the combination I'm liking is:
 
 My Disqus url is
 s.src = 'https://technobabble-2.disqus.com/embed.js';
-* TODO Figure out how to get styling to "take"; the following doesn't work yet
+* NEXT Figure out how to get styling to "take"; the following doesn't work yet
+
+It looks like I have to put CSS in the file
+[[file:~/homedir/blog/themes/academic/assets/scss/custom.scss::font-family:%20Merriweather,%20sans-serif;][custom.scss]] (yes, I know it doesn't make sense).
+Also, maybe I should copy it to the top level data
+directory.  TBD.
+
+I think I want to switch to a "light" style,
+and manually fix some of the fonts and colors;
+also, I want to choose a better highlight.js theme.
+This link https://highlightjs.org/static/demo/
+is useful for that.
+------
+
 
 Also, add .pre to be font-size 1.0rem.
 
@@ -398,6 +414,7 @@ $navbar-brand-font-size: 1.8rem;
  - [ ] IT is faddish
      (NoSQL, microservices)
  - [ ] Agile, in the beginning
- - 
+ - [ ] Timestamps, UTC, and programmer misunderstandings
+
 
 
