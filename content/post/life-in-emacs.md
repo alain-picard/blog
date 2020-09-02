@@ -32,7 +32,7 @@ As I think back about my career in programming, it seems odd that such
 an... _accidental_ choice ended up having such a deep impact on me.  Later,
 I would come to appreciate emacs as a "programmable editor", learn lisp,
 and eventually even build a company's technological core on [Common Lisp](https://common-lisp.net/);
-I'm quite that would never have happened had I not had my eyes opened to
+I'm quite sure that would never have happened had I not had my eyes opened to
 the existence of such deeply interactive and evolveable systems.
 
 

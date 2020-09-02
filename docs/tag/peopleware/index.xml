@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>peopleware | Technobabble</title>
+    <link>https://alain-picard.github.io/blog/tag/peopleware/</link>
+      <atom:link href="https://alain-picard.github.io/blog/tag/peopleware/index.xml" rel="self" type="application/rss+xml" />
+    <description>peopleware</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Alain Picard, 2020</copyright><lastBuildDate>Wed, 02 Sep 2020 00:00:00 +1000</lastBuildDate>
+    <image>
+      <url>https://alain-picard.github.io/blog/images/icon_hu3ce18283b8bd9b64b66f733ed0cd0e72_19037_512x512_fill_lanczos_center_2.png</url>
+      <title>peopleware</title>
+      <link>https://alain-picard.github.io/blog/tag/peopleware/</link>
+    </image>
+    
+    <item>
+      <title>Teaching clojure</title>
+      <link>https://alain-picard.github.io/blog/post/teaching-clojure/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +1000</pubDate>
+      <guid>https://alain-picard.github.io/blog/post/teaching-clojure/</guid>
+      <description>&lt;h2 id=&#34;the-setup&#34;&gt;The Setup&lt;/h2&gt;
+&lt;p&gt;I had the opportunity recently to teach the 
+&lt;a href=&#34;https://clojure.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;clojure&lt;/a&gt; programming language
+to a group of interns.  I was consulting for a client who wanted
+to build a team of clojure developers to maintain and extend an
+application he had commissioned earlier from a small consultancy.
+I agreed to train and lead a team until we felt they were &amp;ldquo;safe
+without the training wheels&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;This was during the start of the COVID pandemic,
+so the entire course was held remotely, via Zoom meetings, during six
+weeks, with two classes of two hours each per week.  Thus 12 lessons,
+totalling 24 hours of classes.  I expected the students to spend about two
+hours for each hour of course work, so they ended up having to work at
+least 12 hours per week.  (I was told later that they had, in fact,
+had to work quite a bit more than what I had anticipated).&lt;/p&gt;
+&lt;p&gt;The students (there were four of them) were highly motivated;
+this training was part of a recruitment effort, and two of them
+would most likely be hired at the end of the training; so the
+classes doubled as an extended evaluation period.  I felt comfortable
+with this as this was all explained up front to the students, who
+got a chance to get &amp;ldquo;free training from an expert&amp;rdquo;, during a period
+where they could not be employed anyhow.&lt;/p&gt;
+&lt;h2 id=&#34;what-they-learned&#34;&gt;What &lt;strong&gt;they&lt;/strong&gt; learned&lt;/h2&gt;
+&lt;p&gt;I rushed madly trying to prepare
+
+&lt;a href=&#34;https://github.com/alain-picard/clojure-training&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;training materials&lt;/a&gt;, which were heavily based on the
+excellent online book 
+&lt;a href=&#34;https://www.braveclojure.com/clojure-for-the-brave-and-true/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clojure for the Brave and True&lt;/a&gt;
+and the 
+&lt;a href=&#34;https://github.com/functional-koans/clojure-koans&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;clojure Koans&lt;/a&gt;.  I had already had a chance to
+review the application they would be maintaining, and so
+knew that they would also to know clojurescript and the
+most excellent 
+&lt;a href=&#34;https://github.com/day8/re-frame/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;re-frame&lt;/a&gt; front end framework.  This meant
+a &lt;em&gt;lot&lt;/em&gt; of material to cover, and I knew that just simple,
+abstract exercises would not provide sufficient complexity
+to get a flavour for &amp;ldquo;real&amp;rdquo; clojure programming, so I resolved
+quite early on that the final outcome of the classes would
+be the delivery of a small, but complete, web based application
+which would be a clone of the 
+&lt;a href=&#34;https://www.nytimes.com/puzzles/spelling-bee&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;New York Times Spelling Bee&lt;/a&gt; word game.&lt;/p&gt;
+&lt;h2 id=&#34;what-i-learned&#34;&gt;What &lt;strong&gt;I&lt;/strong&gt; learned&lt;/h2&gt;
+&lt;p&gt;Teaching is &lt;em&gt;hard work&lt;/em&gt;.  I guess I knew this; having run away from a
+potential teaching career early on&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; but I ended up mentoring
+quite a number of young colleagues throughout my career, and found
+great satisfaction in seeing them grow.  I guess the distinction is
+the degree of motivation of the student, and the intensity of focus.&lt;/p&gt;
+&lt;p&gt;Teaching clojure (and lisps in general) is deceptive: on the one hand,
+the basic syntax of the language is so simple and easy to learn that
+the student gets a sense of false confidence in their progress; on the
+other hand, the tooling is unfamiliar (and somewhat unpolished) adding
+a degree of unnecessary complexity.&lt;/p&gt;
+&lt;p&gt;Once the initial hurdle was over,
+and we were able to dive into code and exercises, the next sticking
+point was definitely trying to understand &lt;em&gt;functional idioms&lt;/em&gt;.  None
+of my students had been exposed to the ideas behind functional
+programming at University.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;  This did not greatly improve my
+opinion of current CS and software engineering programs&amp;hellip;
+The students had familiarity with the following languages: Python,
+Java, C# and a little C++.  These are all language from the same
+&amp;ldquo;family&amp;rdquo;, and follow largely an object oriented, mutable in place
+approach to software design.  Getting the students to think outside of
+this particular box was challenging, but rewarding.&lt;/p&gt;
+&lt;p&gt;One aspect which surprised me, though it perhaps shouldn&amp;rsquo;t have, is
+that one of the most valuable teaching aspect was the detailed code
+review and criticism I gave back the students to all of their
+exercises.  One student wrote, giving feedback at the end of the course:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The biggest thing I found helpful in this course would definitely be
+the code review.  It really helps us improve our mindset and as
+programmers.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Where I was basically taking them through a process analogous to what
+I normally follow with junior colleagues; &lt;em&gt;i.e.&lt;/em&gt; extensive coding review
+emphasising not only correctness, but style, layout, design, and, what
+for lack of a better word I call &lt;em&gt;good taste&lt;/em&gt;, my students had never had
+such feedback on their code.  Their previous experience was submitting
+software to some automated test runner which ran their code, and
+getting a passing grade as soon as the code ran as specified in the
+assignment.  So the greatest missing piece for them was probably the
+realisation that having the code simply working was by no means
+enough; the aim was to write &lt;em&gt;understandable&lt;/em&gt; code.&lt;/p&gt;
+&lt;p&gt;So, whereas universities are trying to &amp;ldquo;teach what industry wants&amp;rdquo; by
+using what they think are &amp;ldquo;popular&amp;rdquo; languages, they actually fail to
+instil some of the more important lessons about maintainability and
+good taste.&lt;/p&gt;
+&lt;p&gt;In the end, this was most clearly exemplified by another
+comment from one of my students, who said:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I think I&amp;rsquo;ve learnt more about programming through this 45 day course
+than in my degree.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;outcome&#34;&gt;Outcome&lt;/h2&gt;
+&lt;p&gt;I was pleasantly surprised that all of my students succeeded in
+delivering a fully working clone of the spelling bee puzzle (albeit
+with hard-coded data, so no automatic puzzle generation)&lt;/p&gt;
+&lt;p&gt;The students actually became very collegial and helpful towards
+one another, even though they were effectively in competition with
+one another.  Don&amp;rsquo;t believe the garbage that the millenials are
+lazy entitled brats; these guys were hardworking and friendly, and
+a pleasure to interact with.&lt;/p&gt;
+&lt;p&gt;The best thing to come of of this for me was that one of the
+students who was &amp;ldquo;cut&amp;rdquo; from the group eventually managed to
+convince my client to hire him anyway, so we ended up with a team
+of three instead of two, and he ended up being an &lt;em&gt;excellent&lt;/em&gt; hire,
+so I think we really lucked out.&lt;/p&gt;
+&lt;p&gt;I am, as of this writing, still engaged with this client and continue
+to teach them, now as temporary acting CTO and tech lead, and will
+have truly succeeded when I have managed to make myself redundant, and
+they can fully take over the maintenance and future development of
+the application!&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;I did teach an &lt;em&gt;Astronomy for Poets&lt;/em&gt; (&lt;em&gt;i.e.&lt;/em&gt; introductory astronomy for non-scientists) at UCLA right after completing my doctorate. This episode convinced me that teaching was &lt;em&gt;not&lt;/em&gt; my vocation. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;And they were all graduates, or soon to be graduates, of some of the best universities in Australia. &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

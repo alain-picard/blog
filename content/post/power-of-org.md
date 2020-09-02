@@ -2,6 +2,7 @@
 title = "This one uses the awesome power of Org"
 author = ["Alain Picard"]
 date = 2020-08-01T00:00:00+10:00
+tags = ["tech", "emacs"]
 draft = true
 math = true
 +++
@@ -57,24 +58,17 @@ And that's _all_, folks!
 <div class="ox-hugo-table striped--light-gray">
 <div></div>
 
-| Date                                                                                               | Weight (kg) | Notes                   |
-|----------------------------------------------------------------------------------------------------|-------------|-------------------------|
-| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-14 Wed&gt;</span></span>       | 72.4        |                         |
-| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-15 Thu&gt;</span></span>       | 72.6        |                         |
-| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-17 Sat&gt;</span></span>       | 72.8        |                         |
-| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-18 Sun&gt;</span></span>       | 72.8        |                         |
-| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-19 Mon&gt;</span></span>       | 73.4        | (!!)                    |
-| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-20 Tue&gt;</span></span>       | 73.2        |                         |
-| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-21 Wed&gt;</span></span>       | 72.8        |                         |
-| <span class="timestamp-wrapper"><span class="timestamp">&lt;2010-04-04 Sun&gt;</span></span>       | 71.4        |                         |
-| <span class="timestamp-wrapper"><span class="timestamp">[2013-02-05 Tue]</span></span>             | 73.0        | Weight Watchers, reboot |
-| <span class="timestamp-wrapper"><span class="timestamp">[2013-02-06 Wed]</span></span>             | 72.8        |                         |
-| <span class="timestamp-wrapper"><span class="timestamp">[2013-02-07 Thu]</span></span>             | 74.0        |                         |
-| <span class="timestamp-wrapper"><span class="timestamp">[2013-02-14 Thu]</span></span>             | 74.4        |                         |
-| <span class="timestamp-wrapper"><span class="timestamp">[2013-07-03 Wed]</span></span>             | 72.4        |                         |
-| <span class="timestamp-wrapper"><span class="timestamp">[2013-12-28 Sat]</span></span>             | 74.2        | Ouch.                   |
-| <span class="timestamp-wrapper"><span class="timestamp">&lt;2016-01-06 Wed 17:33&gt;</span></span> | 75.6        |                         |
-| <span class="timestamp-wrapper"><span class="timestamp">&lt;2017-08-29 Tue 09:14&gt;</span></span> | 77.0        | Ouch!!                  |
+| Date                                                                                         | Weight (kg) | Notes                   |
+|----------------------------------------------------------------------------------------------|-------------|-------------------------|
+| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-14 Wed&gt;</span></span> | 72.4        |                         |
+| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-15 Thu&gt;</span></span> | 72.6        |                         |
+| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-17 Sat&gt;</span></span> | 72.8        |                         |
+| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-18 Sun&gt;</span></span> | 72.8        |                         |
+| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-19 Mon&gt;</span></span> | 73.4        | (!!)                    |
+| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-20 Tue&gt;</span></span> | 73.2        |                         |
+| <span class="timestamp-wrapper"><span class="timestamp">&lt;2009-10-21 Wed&gt;</span></span> | 72.8        |                         |
+| <span class="timestamp-wrapper"><span class="timestamp">&lt;2010-04-04 Sun&gt;</span></span> | 71.4        |                         |
+| <span class="timestamp-wrapper"><span class="timestamp">[2013-02-05 Tue]</span></span>       | 73.0        | Weight Watchers, reboot |
 
 </div>
 
@@ -86,7 +80,10 @@ And that's _all_, folks!
 .my-table td {
     padding: 20px;
     text-align: left;
+    color: red;
+    font-family: sans;
 }
+.my-table { border: solid 3px grey;     width: auto; }
 </style>
 
 <div class="ox-hugo-table my-table">

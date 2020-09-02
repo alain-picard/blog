@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://alain-picard.github.io/blog/tag/clojure/</loc>
+    <lastmod>2020-09-02T00:00:00+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alain-picard.github.io/blog/tag/peopleware/</loc>
+    <lastmod>2020-09-02T00:00:00+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alain-picard.github.io/blog/post/</loc>
+    <lastmod>2020-09-02T00:00:00+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alain-picard.github.io/blog/tags/</loc>
+    <lastmod>2020-09-02T00:00:00+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alain-picard.github.io/blog/post/teaching-clojure/</loc>
+    <lastmod>2020-09-02T00:00:00+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alain-picard.github.io/blog/</loc>
+    <lastmod>2020-09-02T00:00:00+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://alain-picard.github.io/blog/tag/advice/</loc>
     <lastmod>2020-08-11T00:00:00+10:00</lastmod>
   </url>
@@ -23,22 +53,7 @@
   </url>
   
   <url>
-    <loc>https://alain-picard.github.io/blog/post/</loc>
-    <lastmod>2020-08-11T00:00:00+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alain-picard.github.io/blog/tags/</loc>
-    <lastmod>2020-08-11T00:00:00+10:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://alain-picard.github.io/blog/tag/tech/</loc>
-    <lastmod>2020-08-11T00:00:00+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alain-picard.github.io/blog/</loc>
     <lastmod>2020-08-11T00:00:00+10:00</lastmod>
   </url>
   
